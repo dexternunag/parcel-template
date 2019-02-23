@@ -11,15 +11,18 @@
     "build": "parcel build src/*.pug --public-url ./"
   },
   "devDependencies": {
+    "autoprefixer": "^9.4.8",
     "concurrently": "^4.1.0",
-    "pug": "^2.0.3",
+    "cssnano": "^4.1.10",
     "parcel-bundler": "^1.11.0",
+    "postcss-preset-env": "^6.5.0",
+    "pug": "^2.0.3",
     "sass": "^1.16.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.7.0",
-    "bulma": "^0.7.4",
     "browser-sync": "^2.26.3",
+    "bulma": "^0.7.4",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "swiper": "^4.4.6",
