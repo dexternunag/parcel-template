@@ -1,3 +1,33 @@
- /* Vendors */
-@import '../../node_modules/bulma/bulma.sass';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@charset 'UTF-8';
+
+/* Configuration and helpers */
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins';
+
+/* Vendors */
+ @import 
+    // '../../node_modules/bootstrap/scss/bootstrap.scss',
+    '../../node_modules/bulma/bulma.sass',
+    '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+/* Base stuff */
+@import
+    'base/base',
+    'base/fonts',
+    'base/typography',
+    'base/helpers';
+
+/* Layout-related sections */
+@import
+    'layout/header',
+    'layout/footer';
+
+/* Components */
+@import
+    'components/buttons';
+
+/* Page-specific styles */
+@import
+  'pages/home';
